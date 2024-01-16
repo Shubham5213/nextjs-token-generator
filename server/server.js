@@ -19,9 +19,9 @@ connectDB();
 const app = express();
 app.use(
   cors({
-    origin: ["https://gencod.vercel.app"],
+    origin: ["https://gencod-shubham5213.vercel.app"],
   })
-);  
+);
 app.use(express.json());
 
 const PORT = process.env.PORT || 5000;
