@@ -8,7 +8,7 @@ export default function LoginPage(){
     const [show, setShow]=useState(false); 
     const [msg, setMsg]=useState(null); 
     const [valid, setValid]=useState(null); 
-    const url="http://localhost:5000";
+    const url="https://code-generator-w7pg.onrender.com";
     
     const handleSubmit=async()=>{
         const body= {
